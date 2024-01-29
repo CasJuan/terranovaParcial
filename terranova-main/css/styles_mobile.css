@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+    @media  (min-width:320px ) and (max-width:1200px){
+
+    .imagen-home-realstate{
+        width: 100%;
+    }
+
+    .semi-circulo{
+        text-align: center;
+        
+    }
+}

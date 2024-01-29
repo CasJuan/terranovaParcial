@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terranova Real State</title>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="./css/infinite-slider.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <link rel="stylesheet" href="./css/boostrap_main.css">
+    <link rel="stylesheet" href="./css/styles_mobile.css">
+    <link rel="stylesheet" href="./css/styles_desktop.css" media="(min-width:1000px)">
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/carousel.js"></script>
+    <link rel="icon" href="./assets/img/casa-de-mascotas.png">
+
+</head>
+<body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(14, 65, 124);">
+          <a class="navbar-brand" href="#">Terranova</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#props">Propiedades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#nosotros">Acerca de Nosotros</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+    </header>
+
+
+      <section scroll-page id="home" class="home" >
+          
+        <div class="semi-circulo">
+              <h1 class="titulo-home">Terranova
+                  <br>
+                  <span class="subtitulo-home">Real State</span>
+                  
+              </h1>
+              
+          </div>
+          
+          <div class="imagen-home-bg">
+            <img src="./assets/img/homeCarousel/002.jpg" class="imagen-home-realstate">
+    
+      </section>
+
+
+        <div id="props" class="nosotros-subti" style="margin-top:5vh;"><h2>Nuestras Propiedades</h2> </div>
+        
+        <section id="seccionpropiedades" class="propiedades" >
+          <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" >
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="6"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="7"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="8"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="9"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="10"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="11"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="12"></li>
+          </ol>
+          <div class="carousel-inner" id="ProductosContenedor" >
+            <div class="carousel-item active" style="background-color: rgba(14, 65, 124,.7);">
+              <img src="./assets/img/carousel.png " class="d-block card-img-top" alt="..." style="width:60%; margin:auto; " >
+              <div class="carousel-caption d-none d-md-block">
+                <h5><span class="nombre"></span></h5>
+                <p style="font-size: 50px; font-weight: 500;">
+                   Nuestras Propiedades
+                </p>
+              </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+          </a>
+        </div>
+        </section>
+        <!-- Pantilla para carrousel--> 
+        <div class="plantilla" >
+          <div class="carousel-item card" style="background-color: rgba(14, 65, 124,.7);" >
+            <img src="..." class="d-block img-propiedad card-img-top" alt="..." style="width:80%; margin:auto;">
+            <div class="carousel-caption d-none d-md-block box-bg">
+              <h5><span class="nombre"></span></h5>
+              <p>
+                <ul>
+                  <li>Tipo de operacion: <span class="operacion"></span></li>
+                  <li>Tipo de propiedad: <span class="propiedad"></span></li>
+                  <li>Ubicacion: <span class="ubicacion"></span></li>
+                  <li>Precio: <span class="precio"></span></li>
+                  <li><button type="button" class="btn btn-info btn-lg btn-modal" data-toggle="modal" data-target="#id-propiedad">Mas Info</button></li>
+                </ul>
+              </p>
+            </div>
+            <!-- Modal -->
+        <div id="myModal1" class="modal fade mdl-id" role="dialog">
+          <div class="modal-dialog">
+          
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title"><span class="nombre"></span></h4>
+              </div>
+              <div class="modal-body">
+                <p><span class="mdl-propiedad"></span></p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+              </div>
+            </div>
+          
+          </div>
+        </div>
+          </div>  
+        </div>
+        
+        
+                
+         
+        
+        <!-- </section> -->
+      </section>
+     
+      
+
+      <section class="acerca-de-nosotros">
+        
+          <div class="nosotros-subti" id="nosotros"><h2>Nosotros</h2></div>
+          
+          <div class="container" style="margin-top:10vh; margin-bottom: 10vh;">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="nosotros-datos">
+  
+                  <p class="nosotros-txt">¿Dónde encontrarnos?</p>
+                  <p class="nosotros-txt">Transporte: <b class="nosotros-impor">42,55,2,15,65,25</b>.</p>
+                  <p class="nosotros-txt">Subtes: <b class="nosotros-impor">C,D</b>.</p>
+                  
+                  <p class="nosotros-txt">Seguinos en Nuestras Redes:</p>
+    
+                  <ul class="nosotros-links">
+                    <li> <a href="https://www.facebook.com/help" target="_blank" rel="noopener noreferrer"> <img src="./assets/img/Nosotros/facebook.png"></a>  </li>
+                    <li> <a href="https://www.instagram.com/help" target="_blank" rel="noopener noreferrer"> <img src="./assets/img/Nosotros/instagram .png"></a> </li>
+                    <li> <a href="https://twitter.com/help" target="_blank" rel="noopener noreferrer"> <img src="./assets/img/Nosotros/twitter.png"> </a> </li>
+                  </ul>
+    
+                  <p class="nosotros-txt">Contacto: <a href="tel:0800808"> <b class="nosotros-impor">4711-2233</b></a> </p>
+    
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="nosotros-mapa">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.6060735154524!2d-58.44521018423783!3d-34.56352806288073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5c8f8074bfb%3A0xf5f91738c1779e13!2sAv.%20Luis%20Mar%C3%ADa%20Campos%201426%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1636951770649!5m2!1ses!2sar" 
+                    class="mapa" width="250" height="290" style="border:0; border-radius:5px; " allowfullscreen="" loading="lazy">
+                  </iframe>
+                </div>
+  
+              </div>
+            </div>
+            </div>
+
+
+            
+
+           
+            <div class="container">
+              <section class="customer-logos slider">
+                <div class="slide"><img src="./assets/img/clientes/image2.png"></div>
+                <div class="slide"><img src="./assets/img/clientes/image3.jpg"></div>
+                <div class="slide"><img src="./assets/img/clientes/image4.jpg"></div>
+                <div class="slide"><img src="./assets/img/clientes/image5.jpg"></div>
+                <div class="slide"><img src="./assets/img/clientes/image6.jpg"></div>
+                <div class="slide"><img src="./assets/img/clientes/image7.jpg"></div>
+                <div class="slide"><img src="./assets/img/clientes/image8.jpg"></div>
+                <div class="slide"><img src="./assets/img/clientes/image9.jpg"></div>
+              </section>
+            </div>
+          
+      </section>
+
+
+      <div class="container-boton">
+          <a href="https://wa.me/47112233?text=Me%20gustaria%20preguntar%20sobre%20una%20propiedad" class="btn-wsp" target="_blank">
+            <img class="boton" src="./assets/img/Nosotros/icono.png">
+          </a>
+      </div>
+      <footer class="text-center text-lg-start bg-light text-muted" id="nosotros">
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+          <div class="me-5 d-none d-lg-block">
+            <span>Conocenos:</span>
+          </div>
+          <div>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </section>
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <div class="row mt-3">
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fas fa-gem me-3"></i>Terranova
+                </h6>
+                <p>
+                    Somos una inmobiliara con mucha historia y renombre nacional. Nuestra experiencia y valores nos definen.
+                </p>
+              </div>
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Links Útiles
+                </h6>
+                <p>
+                  <a href="#home" class="text-reset">Home</a>
+                </p>
+                <p>
+                  <a href="#seccionpropiedades" class="text-reset">Propiedades</a>
+                </p>
+                <p>
+                  <a href="#nosotros" class="text-reset">Acerca de Nosotros</a>
+                </p>
+              </div>
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Contacto
+                </h6>
+                <p><i class="fas fa-print me-3"></i>Terranova Real State.</p>
+                <p><i class="fas fa-home me-3"></i>Luis María Campos 1426, Buenos Aires – Argentina </p>
+                <p><i class="fas fa-phone me-3"></i>Teléfono (+54) 9 4711-2233</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2021 Copyright:
+          <a class="text-reset fw-bold" href="https://youtu.be/84MkEfr4NJA">Blockchain</a>
+        </div>
+      </footer>
+
+</body>
+</html>

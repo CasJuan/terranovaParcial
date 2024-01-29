@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.home{
+    height: 100vh;
+    position:relative;
+}
+
+.propiedades{
+    height: 100vh;
+    position: relative;
+    /* margin: 20px; */
+    
+}
+
+.semi-circulo {
+    width: 55vw;
+    height: 100vh;
+    background-color: rgba(14, 65, 124, 0.664);
+    border-top-left-radius: 620px;
+    border-bottom-left-radius: 0px;
+    border-bottom: 0;
+    position: absolute;
+    right: 0px;   
+    z-index: -900;
+}
+
+.titulo-home{
+
+    top: 35%;
+    font-size: 7.5em;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    -webkit-text-stroke: 2px rgba(0, 0, 0, 0.55);
+    position: relative;
+}
+
+.subtitulo-home{
+    font-size: 0.9em;
+    font-weight: 500;
+    
+}
+
+.imagen-home-bg{
+    z-index: -100;
+    width: 100%;
+    position:relative;
+    z-index: -1000;
+}
+
+.imagen-home-realstate{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1000;
+}
+
+
+.subtitulos{
+    text-align: center;
+    font-size : 30px;
+
+}
+
+.acerca-de-nosotros{
+    height: 100vh;
+    position: relative;
+}
+
+
+.mapa{
+    height: 400px;
+    width: 500px;
+}
+
+.nosotros-datos{
+    /* width: 30vw; */
+    height:50vh;
+    background-color: rgba(255, 255, 255, 0.726);
+    border-radius:5px;
+    border: 1px solid black;
+    margin: 5px;
+    
+}
+
+.nosotros-txt{
+    font-size:30px;
+    font-weight:300;
+    line-height:30px;
+    text-align:center;
+    color:black;
+    text-decoration: none;
+    margin-top: 30px; 
+}
+
+#seccionpropiedades{
+    margin-top: 10vh;
+}
+
+.box-bg{
+    background-color: rgba(14, 65, 124,.7);
+}
